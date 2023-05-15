@@ -6,7 +6,7 @@ int main() {
 
     const double usd_euro(1.19);        // uds to euro converter at current exchange rate
 
-    cout << "\nWelcome to the Euro to Dollars Converter" << endl;
+    cout << "\nWelcome to the Euro to Dollars Currency Converter" << endl;
     cout << "\nPlease enter your total amount of Euros that you would like to convert to USD: " << endl;
 
     double euros{0.00};
@@ -18,7 +18,7 @@ int main() {
 
     cout << "\nThat is equivalent to: " << dollars << " dollars." << endl;
 
-    cout << "\nThere is a flat conversion of $1, which bring the total too: " << --dollars << endl;     //added $1 increment 
+    cout << "\nThere is a flat fee for conversion which is $1, which bring the total too: " << --dollars << endl;     //added $1 increment 
 
     cout << endl; 
 
